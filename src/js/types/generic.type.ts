@@ -37,3 +37,12 @@ export type MetadataEvent = {
     metadata: GenericObject;
     programDateTime?: string;
 };
+
+export type BoundsObj = {
+    left: number;
+    right: number;
+    width: number;
+    height: number;
+    top: number;
+    bottom: number;
+};
